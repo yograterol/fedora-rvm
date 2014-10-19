@@ -18,3 +18,5 @@ RUN /bin/bash -l -c "rvm install ruby-2.1.3"
 
 RUN /bin/bash -l -c "gem install bundler --no-ri --no-rdoc"
 
+RUN /bin/bash -l -c "gem install rails4 --no-ri --no-rdoc
+RUN /bin/bash -l -c "gem install rails4 --no-ri --no-rdoc"
