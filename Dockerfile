@@ -4,7 +4,7 @@ MAINTAINER Yohan Graterol <yohangraterol92@gmail.com>
 
 RUN yum update -y
 
-RUN yum install -y which; yum -y clean all
+RUN yum install -y which sqlite-devel mariadb-devel mariadb-libs postgresql-devel postgresql-libs; yum -y clean all
 
 RUN curl -sSL https://get.rvm.io | bash -s stable
 
